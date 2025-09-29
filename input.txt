@@ -1,0 +1,10 @@
+ We have already encountered a brute-force algorithm for the general searching
+ problem: it is called sequential search (see Section 2.1). To repeat, the algorithm
+ simply compares successive elements of a given list with a given search key until
+ either a match is encountered (successful search) or the list is exhausted without
+ f
+ inding a match (unsuccessful  search). A simple extra trick is often employed
+ in implementing sequential search: if we append the search key to the end of
+ the list, the search for the key will have to be successful, and therefore we can
+ eliminate the end of list check altogether. Here is pseudocode of this enhanced
+ version.
